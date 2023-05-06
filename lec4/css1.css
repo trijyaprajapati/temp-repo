@@ -1,0 +1,31 @@
+div{
+    border-left: 2px solid black;
+    padding-left: 5px;
+    
+}
+.btn{
+    border: 2px solid black;
+    width: 3.4rem;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    text-align: center;
+    
+    
+}
+
+.btn:hover{
+    background-color: #F092DD;
+    cursor: pointer;
+}
+div p{
+   /* text-align: justify;
+    line-height: 2rem;
+    text-decoration: underline;
+    text-decoration-color:rgb(100, 241, 100) ;
+    text-transform: uppercase;*/
+}
+
+div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}

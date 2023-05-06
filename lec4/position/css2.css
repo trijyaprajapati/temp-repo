@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 20px;
+}
+
+/*.parent{
+    position: relative;
+}
+.div-3{
+    background-color: brown;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}*/
+
+.navbar{
+    background-color: rgb(8, 8, 8);
+    border: 2px solid rgb(13, 13, 13);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top:0;
+
+
+
+}
+.navbar a:link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+.navbar a:hover{
+    background-color: coral;
+    padding: 12px;
+}
+.contanier{
+    margin-top: 3rem;
+}

@@ -1,0 +1,29 @@
+nav{
+    background-color: rgb(208, 255, 0);
+    padding: 10px;
+   
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:link{
+color: black;
+}
+
+nav a:visited{
+    color: red;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+ nav a:active{
+    color: aqua;
+ }
+ p::first-letter{
+    font-size: 50px;
+ }
+
+ 
