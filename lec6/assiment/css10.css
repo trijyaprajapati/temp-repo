@@ -1,0 +1,44 @@
+body{
+    perspective: 800px;
+}
+
+
+.container{
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 100px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition-duration:1s;
+
+
+}
+
+.side-1, .side-2{
+backface-visibility: hidden;
+
+}
+.side-1{
+    background-color: blueviolet;
+    background:url(https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60) ;
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    
+}
+.side-2{
+background-color: coral;
+font-size: 20px;
+height: 100%;
+width: 100%;
+transform: rotateY(180deg);
+position: absolute;
+    
+}
+
+.container:hover{
+    transform: rotateY(180deg);
+}
