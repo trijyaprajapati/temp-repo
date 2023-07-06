@@ -43,18 +43,47 @@ a:hover{
 .card img{
     width: 400px;
     padding: 30px;
+   
     
+}
+.card img:hover{
+    scale: 1.25;
 }
  .card{
     
     text-align: center;
     background-color: #4f6b8aa4;
     height: 400px;
+    transition: 0.5s ease-in-out;
 } 
+
+
 footer{
     background-color:  #0D1B2A;
-    height: 200px;
+    height: 300px;
     
+}
+
+.container{
+    display: flex;
+    color: white;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+.container h4{
+    padding: 40px;
+    
+    
+}
+.container div{
+    gap: 50px;
+    
+    margin-left:100px ;
+}
+.container-0{
+    height: 400px;
+    background-color: #28374F;
 }
 
 

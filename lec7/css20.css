@@ -1,0 +1,30 @@
+.container{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
+.container-2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    animation-name: box;
+    animation-duration: 3s;
+    /* animation-fill-mode: forwards; */
+
+}
+@keyframes box {
+
+100%{
+    transform: translateX(300px);
+}    
+}
+
+@keyframes box-0 {
+    
+}
+

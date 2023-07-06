@@ -1,0 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    background-image: url(../animation/img/Space.png);
+    height: 750px;
+}

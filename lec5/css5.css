@@ -1,15 +1,168 @@
 *{
     margin: 0;
     padding: 0;
+
+    border: 1px black solid; 
 }
 nav{
-    border: 2px solid black;
+    border-bottom: 1px solid black;
     height: 4.5rem;
-    background-color: rgb(214, 165, 38);
+    background-color: #ffc017;
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
 
 }
 
 .logo{
-    border: 1px solid black;
+    /* height: 10px; */
+    margin-left: 150px;
+    padding: 4px;
+    
 }
+.nav-link a{
+text-decoration: none;
+padding: 10px;
+color: rgb(0, 0, 0);
+
+
+
+}
+.nav-link{
+    
+    margin-right:150px;
+  
+}
+.nav-link button{
+    border: 2px solid black;
+    border-radius:2em;
+    padding:10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.container{
+    height: 60vh;
+    /* border: 1px solid black; */
+    background-color: #ffc017;
+    position: relative;
+}
+/* .container button{
+    
+    border-radius:2em;
+    padding:10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+} */
+h1{
+    font-size:90px;
+    line-height: 130px;
+    
+    
+    
+}
+
+.heading{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+   
+    
+
+}
+.container button:last-child{
+    border-radius:2em;
+    padding:10px 40px 10px 40px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+.card-c{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+}
+.card{
+    
+    display: flex;
+    gap: 10px; 
+  
+
+}
+span{
+    font-size: 50px;
+    color: rgb(97, 100, 100);
+}
+/* .main{
+    position: relative;
+    top: 50px;
+    left: 50px;
+} */
+.main-head{
+    padding: 25px;
+    margin-left: 6%;
+}
+h2{
+    font-family:sohne, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(41,41,41);
+}
+.main-2{
+    padding: 50px;
+    display: flex;
+    
+}
+
+.a{
+    
+    width: 60%;
+    
+}
+
+.per{
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    
+    flex-wrap: wrap;
+}
+.container-2{
+    width: 30%;
+    padding: 20px;
+    
+}
+.but{
+    padding: 10px;
+    width: 80%;
+}
+button{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2em;
+  background-color: rgb(223, 220, 220);
+  font-weight: bold
+    
+}
+button a{
+    text-decoration: none;
+    color: black;
+    }
+    .container-2 h4{
+        padding: 15px;
+    }
+    .container-2 p{
+        padding: 15px;
+    }

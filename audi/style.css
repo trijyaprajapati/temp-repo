@@ -1,0 +1,79 @@
+*{
+   margin: 0;
+   padding: 0;
+   /* border: 1px black solid; */
+}
+body{
+   overflow-x: hidden;
+  }
+nav{
+  height: 70px;
+    }
+ .container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+ }   
+.navigation a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: grey;
+ }  
+ logo{
+    width: 10px;
+ } 
+ .container-2 img{
+    width: 1523px;
+ }
+  h3{
+   padding: 20px;
+   margin-left: 50px;
+   text-decoration: underline;
+ }
+ .model{
+   display: flex;
+   padding: 5px;
+ }
+ figcaption{
+   text-align: center;
+   font-size: large;
+ }
+ .explore{
+   padding: 70px;
+   display: flex;
+   position: absolute;
+  }
+ .explore img{
+      height: 600px;
+      margin-left: 120px;
+      margin-top: 70px;
+  }
+.explore .b{
+   margin-left: 70px;
+   
+   padding: 10px;
+   position: relative;
+   top: 300px;
+   }
+ .explore .b button{
+   margin-top: 10px;
+   border: 1px solid rgb(56, 55, 55);
+   padding: 20px 50px;
+   background-color: white;
+ }
+ .explore .b a{
+   text-decoration: none;
+   font-size: large;
+   color: black;
+ }
+ .explore .b h1{
+  /* font-family: 'Montserrat', sans-serif; 
+   font-family: 'AudiTypeExtended', sans-serif; */
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'Lexend Peta', sans-serif;
+ }
+ .bigimg{
+ flex-wrap: wrap;
+ }
