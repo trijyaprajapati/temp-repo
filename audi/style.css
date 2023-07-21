@@ -42,33 +42,32 @@ nav{
  }
  .explore{
    padding: 70px;
-   display: flex;
-   position: absolute;
+   display: flex; 
+   /* border:2px solid black; */
+   align-items: center;
   }
  .explore img{
       height: 600px;
       margin-left: 120px;
       margin-top: 70px;
   }
-.explore .b{
+.b{
    margin-left: 70px;
-   
    padding: 10px;
-   position: relative;
-   top: 300px;
+  
    }
- .explore .b button{
+ .b button{
    margin-top: 10px;
    border: 1px solid rgb(56, 55, 55);
    padding: 20px 50px;
    background-color: white;
  }
- .explore .b a{
+ .b a{
    text-decoration: none;
    font-size: large;
    color: black;
  }
- .explore .b h1{
+ .b h1{
   /* font-family: 'Montserrat', sans-serif; 
    font-family: 'AudiTypeExtended', sans-serif; */
    font-family: 'Exo 2', sans-serif;
@@ -76,4 +75,5 @@ nav{
  }
  .bigimg{
  flex-wrap: wrap;
+ /* border :2px solid black; */
  }

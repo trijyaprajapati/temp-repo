@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    border: 1px black solid;
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+ul{
+    
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 1em
+}
+   
+
